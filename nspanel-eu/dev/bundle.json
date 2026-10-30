@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "product": "nodium.nspanel_eu",
+  "channel": "dev",
+  "version": "0.2.0-dev.43-home-four-scenes-experiment",
+  "esp": {
+    "file": "firmware-0.2.0-dev.43-home-four-scenes-experiment-590394b416e2.bin",
+    "bytes": 1462064,
+    "sha256": "590394b416e28851674ffb26a2cd567554dbc3a461fd8670eebf2b275d2b4de1"
+  },
+  "hmi": {
+    "file": "home-41001-uart115200-c3470530bdf1.tft",
+    "bytes": 581380,
+    "sha256": "c3470530bdf135b33d3c3f339537c7af385121ae56060b4d224f5f69ae28b81d",
+    "api": 2,
+    "build": 41001,
+    "featureMask": 512,
+    "bootBaud": 115200,
+    "displayDirection": 270,
+    "latestPath": "display.tft"
+  },
+  "validationState": "Software-validated",
+  "physicalNewTftVerified": false,
+  "releaseApproved": false
+}

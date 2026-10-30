@@ -2,7 +2,7 @@
 
 Experimentální instalační obrazy a manifesty pro odděleně aktualizovaný ESP32 a Nextion. Zdrojový kód, HMI projekt, ladicí symboly ani nastavení domácí instalace se zde nezveřejňují.
 
-První sada se připravuje. Instalujte až po zveřejnění odpovídajícího manifest.json a bundle.json. Tento kanál není STABLE. Kompilace a kontrola souborů nenahrazují ověření na fyzickém panelu.
+Zveřejněná sada: **0.2.0-dev.43-home-four-scenes-experiment**, HOME TFT **41001 / UART 115200**. ESP32 obraz prošel úplnou kompilací a kontrolou integrity; nové ovládání a přenos přes HTTPS na fyzickém panelu ještě čekají na ověření. Tento kanál není STABLE. Kompilace a kontrola souborů nenahrazují ověření na fyzickém panelu.
 
 Trvalé adresy po zveřejnění sady:
 

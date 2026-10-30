@@ -1,0 +1,14 @@
+{
+  "name": "NODIUM NSPanel EU",
+  "version": "0.2.0-dev.43-home-four-scenes-experiment",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "ota": {
+        "path": "firmware-0.2.0-dev.43-home-four-scenes-experiment-590394b416e2.bin",
+        "md5": "cac4e6531d45d1dde010e2f0613a46f9",
+        "summary": "NODIUM DEV HOME experiment; ESP32 and TFT use separate installation steps."
+      }
+    }
+  ]
+}
