@@ -1,17 +1,46 @@
 # NODIUM NSPanel EU — DEV
 
-Experimentální instalační obrazy a manifesty pro odděleně aktualizovaný ESP32 a Nextion. Zdrojový kód, HMI projekt, ladicí symboly ani nastavení domácí instalace se zde nezveřejňují.
+Aktuální sada: **0.2.0-dev.44-home-url-recovery-experiment**.
 
-Zveřejněná sada: **0.2.0-dev.43-home-four-scenes-experiment**, HOME TFT **41001 / UART 115200**. ESP32 obraz prošel úplnou kompilací a kontrolou integrity; nové ovládání a přenos přes HTTPS na fyzickém panelu ještě čekají na ověření. Tento kanál není STABLE. Kompilace a kontrola souborů nenahrazují ověření na fyzickém panelu.
+Tato oprava obnoví použitelnou adresu TFT i tehdy, když se do pole 06.46
+zkopíroval celý Markdown odkaz nebo známý NODIUM DEV manifest místo TFT.
+Při startu a před AUTO opraví a uloží čistou URL. V Setupu ukazuje použitý
+zdroj a při selhání zachová konkrétní chybu HTTP nebo potvrzení displeje.
+Jiné platné HTTP(S) TFT zdroje zachovává. Oprava URL sama nespouští upload.
 
-Trvalé adresy po zveřejnění sady:
+## Instalace ze stávajícího DEV kanálu
 
-- Firmware DEV manifest: https://raw.githubusercontent.com/lukasveselycz/nodium-updates/main/nspanel-eu/dev/manifest.json
-- TFT alias: https://raw.githubusercontent.com/lukasveselycz/nodium-updates/main/nspanel-eu/dev/display.tft
-- Verze a SHA-256 obou obrazů: bundle.json
+1. V NODIUM Setup zvolte **09.04 · Zjistit novou verzi**.
+2. Po nabídnutí dev.44 stiskněte **09.05 · Aktualizovat firmware** a vyčkejte na restart.
+3. Po restartu je 06.46 opravená bez dalšího kopírování. Řádek **DEV · HMI TFT použitá adresa** ukáže zdroj.
+4. Jednou stiskněte **DEV · NAHRÁT HMI TFT · AUTO**.
 
-V NODIUM Setup nastavte 09.02 DEV manifest URL, zvolte 09.03 DEV, stiskněte 09.04 Zjistit novou verzi a potom 09.05 Aktualizovat firmware. Pro přímé HTTPS nahrání TFT je potřeba dev.43 nebo novější z odpovídající experimentální větve. Teprve po jeho restartu nastavte 06.46 DEV HMI TFT URL a jednou stiskněte DEV NAHRÁT HMI TFT AUTO.
+ESP32 a Nextion jsou dva samostatné aktualizační kroky. Je-li původní TFT
+na 9600 baud, skutečný přenos může trvat přibližně deset minut.
+Správný TFT má **581380 bajtů**. Konkrétní chybu lze přečíst přímo ve stavu
+uploadu. Zobrazení průběhu v prohlížeči při blokujícím sériovém přenosu
+není zaručené; procenta na displeji/logy doplňují fyzické ověření.
 
-Pokud původní TFT startuje na 9600, první přenos může trvat přibližně deset minut. Nechte panel napájený a vyčkejte na dokončení. Opravené HOME TFT startuje na 115200, API 2 / feature 512 / build 41001. Aktivní jsou hlavní scény po jejich přiřazení a připojení Core; spodní navigace v tomto HOME experimentu zatím není zapojená.
+## Adresy pro případ ruční konfigurace
 
-Neměnné soubory obsahují verzi/build a část SHA-256 v názvu. Staré obrazy se zachovávají; nový manifest a TFT alias se zveřejňují společně. Aktualizace obou procesorů stále vyžaduje dva výslovné kroky.
+Do 09.02 patří čistá adresa manifestu:
+
+```text
+https://raw.githubusercontent.com/lukasveselycz/nodium-updates/main/nspanel-eu/dev/manifest.json
+```
+
+Do 06.46 patří čistá adresa TFT:
+
+```text
+https://raw.githubusercontent.com/lukasveselycz/nodium-updates/main/nspanel-eu/dev/display.tft
+```
+
+Soubor `bundle.json` uvádí přesné verze, délky a SHA-256. Nový firmware
+používá stejný HOME TFT API2 / feature512 / build41001, UART115200 a směr270°.
+Hlavní scény vyžadují přiřazení a Core. Spodní navigace v tomto HOME
+experimentu zůstává nezapojená.
+
+**Experimentální DEV distribuce na žádost vlastníka; žádný STABLE release.**
+Kompilace a ověření souborů nejsou důkazem úspěšného nového TFT přenosu nebo
+ovládání na fyzickém panelu. Soukromé zdroje, HMI projekt, debug symboly ani
+nastavení domácí instalace se zde nezveřejňují. Starší obrazy se zachovávají.

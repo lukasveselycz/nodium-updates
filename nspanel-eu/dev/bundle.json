@@ -2,11 +2,11 @@
   "schema": 1,
   "product": "nodium.nspanel_eu",
   "channel": "dev",
-  "version": "0.2.0-dev.43-home-four-scenes-experiment",
+  "version": "0.2.0-dev.44-home-url-recovery-experiment",
   "esp": {
-    "file": "firmware-0.2.0-dev.43-home-four-scenes-experiment-590394b416e2.bin",
-    "bytes": 1462064,
-    "sha256": "590394b416e28851674ffb26a2cd567554dbc3a461fd8670eebf2b275d2b4de1"
+    "file": "firmware-0.2.0-dev.44-home-url-recovery-experiment-86c59d57e16b.bin",
+    "bytes": 1465056,
+    "sha256": "86c59d57e16b5b5794a90093920a0e22ad331576a64800fe3158665360a0a378"
   },
   "hmi": {
     "file": "home-41001-uart115200-c3470530bdf1.tft",
