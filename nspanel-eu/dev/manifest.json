@@ -1,13 +1,13 @@
 {
   "name": "NODIUM NSPanel EU",
-  "version": "0.2.0-dev.44-home-url-recovery-experiment",
+  "version": "0.2.0-dev.45-home-bounded-upload-experiment",
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "path": "firmware-0.2.0-dev.44-home-url-recovery-experiment-86c59d57e16b.bin",
-        "md5": "5a78ad132b6b6480356b92975ef26168",
-        "summary": "dev.44: repairs copied TFT URLs and preserves specific upload errors; TFT upload remains a separate AUTO action."
+        "path": "firmware-0.2.0-dev.45-home-bounded-upload-experiment-eb9794a9aef6.bin",
+        "md5": "23f0f45eb01434987d312bdd53695e2c",
+        "summary": "dev.45: bounded TFT upload waits and persistent last-attempt diagnostics; TFT still requires manual AUTO."
       }
     }
   ]
