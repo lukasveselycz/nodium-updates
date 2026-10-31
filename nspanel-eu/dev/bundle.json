@@ -2,11 +2,11 @@
   "schema": 1,
   "product": "nodium.nspanel_eu",
   "channel": "dev",
-  "version": "0.2.0-dev.46-home-frame-recovery-experiment",
+  "version": "0.2.0-dev.48-setup-ui-experiment",
   "esp": {
-    "file": "firmware-0.2.0-dev.46-home-frame-recovery-experiment-0987d7d59ded.bin",
-    "bytes": 1438896,
-    "sha256": "0987d7d59ded57ca84d9c162c0e418b01b34f423429c96a2da8cac1978613cf9"
+    "file": "firmware-0.2.0-dev.48-setup-ui-experiment-963162c49117.bin",
+    "bytes": 1458688,
+    "sha256": "963162c4911764e5e06659b530f4698bb6591a818107cafe36a3576168a855ad"
   },
   "hmi": {
     "file": "home-41001-uart115200-c65f1d9d9ca6.tft",
@@ -18,9 +18,12 @@
     "bootBaud": 115200,
     "displayDirection": 270,
     "latestPath": "display.tft",
-    "visualRevision": 2
+    "visualRevision": 2,
+    "validationState": "Physically validated HOME visual layout on owner's unit",
+    "ownerAcceptedDate": "2026-10-31"
   },
   "validationState": "Software-validated",
-  "physicalNewTftVerified": false,
-  "releaseApproved": false
+  "physicalNewTftVerified": true,
+  "releaseApproved": false,
+  "physicalNewEspVerified": false
 }

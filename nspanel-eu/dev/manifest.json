@@ -1,13 +1,13 @@
 {
   "name": "NODIUM NSPanel EU",
-  "version": "0.2.0-dev.46-home-frame-recovery-experiment",
+  "version": "0.2.0-dev.48-setup-ui-experiment",
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "path": "firmware-0.2.0-dev.46-home-frame-recovery-experiment-0987d7d59ded.bin",
-        "md5": "f6275fb3ade0b227753611171fcb8266",
-        "summary": "dev.46: preserves HOME graphics and recovers unconfirmed first frames; completed TFT needs no re-upload."
+        "path": "firmware-0.2.0-dev.48-setup-ui-experiment-963162c49117.bin",
+        "md5": "9cc20efb5142e906e152fc935e5dc748",
+        "summary": "dev.48: grouped local Setup UI and dev.47 HOME state feedback; preserves accepted visual02 TFT and configuration v7."
       }
     }
   ]
