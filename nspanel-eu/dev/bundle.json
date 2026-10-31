@@ -9,15 +9,16 @@
     "sha256": "0987d7d59ded57ca84d9c162c0e418b01b34f423429c96a2da8cac1978613cf9"
   },
   "hmi": {
-    "file": "home-41001-uart115200-c3470530bdf1.tft",
-    "bytes": 581380,
-    "sha256": "c3470530bdf135b33d3c3f339537c7af385121ae56060b4d224f5f69ae28b81d",
+    "file": "home-41001-uart115200-d3aaf1b834dd.tft",
+    "bytes": 646916,
+    "sha256": "d3aaf1b834dd2df820c216aeda2ba4aaf46f6b78800e5785fc9d4becc8f516ec",
     "api": 2,
     "build": 41001,
     "featureMask": 512,
     "bootBaud": 115200,
     "displayDirection": 270,
-    "latestPath": "display.tft"
+    "latestPath": "display.tft",
+    "visualRevision": 1
   },
   "validationState": "Software-validated",
   "physicalNewTftVerified": false,
