@@ -2,11 +2,11 @@
   "schema": 1,
   "product": "nodium.nspanel_eu",
   "channel": "dev",
-  "version": "0.2.0-dev.45-home-bounded-upload-experiment",
+  "version": "0.2.0-dev.46-home-frame-recovery-experiment",
   "esp": {
-    "file": "firmware-0.2.0-dev.45-home-bounded-upload-experiment-eb9794a9aef6.bin",
-    "bytes": 1466480,
-    "sha256": "eb9794a9aef641912d36b71f4d221bd2f0400cdc6adb50a34e2280d7e4d90d27"
+    "file": "firmware-0.2.0-dev.46-home-frame-recovery-experiment-0987d7d59ded.bin",
+    "bytes": 1438896,
+    "sha256": "0987d7d59ded57ca84d9c162c0e418b01b34f423429c96a2da8cac1978613cf9"
   },
   "hmi": {
     "file": "home-41001-uart115200-c3470530bdf1.tft",
