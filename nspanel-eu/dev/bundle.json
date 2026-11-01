@@ -2,11 +2,11 @@
   "schema": 1,
   "product": "nodium.nspanel_eu",
   "channel": "dev",
-  "version": "0.2.0-dev.48-setup-ui-experiment",
+  "version": "0.2.0-dev.52-navigation-router-experiment",
   "esp": {
-    "file": "firmware-0.2.0-dev.48-setup-ui-experiment-963162c49117.bin",
-    "bytes": 1458688,
-    "sha256": "963162c4911764e5e06659b530f4698bb6591a818107cafe36a3576168a855ad"
+    "file": "firmware-0.2.0-dev.52-navigation-router-experiment-519675188d8d.bin",
+    "bytes": 1488752,
+    "sha256": "519675188d8de2f84de1af8192d9db6890b1de710c687aee41632b57e370dad9"
   },
   "hmi": {
     "file": "home-41001-uart115200-c65f1d9d9ca6.tft",
@@ -25,5 +25,24 @@
   "validationState": "Software-validated",
   "physicalNewTftVerified": true,
   "releaseApproved": false,
-  "physicalNewEspVerified": false
+  "physicalNewEspVerified": false,
+  "ownerApprovedDevDistribution": true,
+  "optionalHmi": {
+    "file": "home-lights-41003-uart115200-8b06031fe123.tft",
+    "bytes": 787960,
+    "sha256": "8b06031fe123050522915e6b8130a997f370c68eabfbcab1bb9066a8fbc5d277",
+    "api": 2,
+    "build": 41003,
+    "featureMask": 1537,
+    "bootBaud": 115200,
+    "displayDirection": 270,
+    "validationState": "Software-validated; physical acceptance pending",
+    "physicalVerified": false,
+    "requiredForNativeLights": true,
+    "automaticallySelected": false
+  },
+  "configurationFormat": 8,
+  "bleIncluded": false,
+  "universalPictureBankIncluded": false,
+  "staticDramBytes": 136512
 }

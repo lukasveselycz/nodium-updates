@@ -1,13 +1,13 @@
 {
   "name": "NODIUM NSPanel EU",
-  "version": "0.2.0-dev.48-setup-ui-experiment",
+  "version": "0.2.0-dev.52-navigation-router-experiment",
   "builds": [
     {
       "chipFamily": "ESP32",
       "ota": {
-        "path": "firmware-0.2.0-dev.48-setup-ui-experiment-963162c49117.bin",
-        "md5": "9cc20efb5142e906e152fc935e5dc748",
-        "summary": "dev.48: grouped local Setup UI and dev.47 HOME state feedback; preserves accepted visual02 TFT and configuration v7."
+        "path": "firmware-0.2.0-dev.52-navigation-router-experiment-519675188d8d.bin",
+        "md5": "fb573421ba710992aacdc0f9b8bf8459",
+        "summary": "dev.52: multi-bulb Setup, v8 backups, stored icon choices and lower navigation RAM; keeps existing TFT. BLE and universal display icons remain pending."
       }
     }
   ]
